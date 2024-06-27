@@ -5,6 +5,9 @@ import { FaEdit } from "react-icons/fa";
 import Table from "./table";
 function Form() {
 
+
+
+  
   const [formData, setFormData] = useState({})
   const [allData, setallData] = useState([])
   const [mode, setMode] = useState("Submit Information")
